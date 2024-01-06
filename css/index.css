@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+:root{
+  --primary-color: #00A9FF;
+  --secondary-color: #89CFF3;
+  --ternary-color: #A0E9FF;
+  --bg-color: #ffff;
+}
+
+body{
+  font-family: inter;
+}
+
+table, tr, td{
+ 
+  border: solid 0.6px;
+  border-collapse: collapse #eef0f1;
+  font-size: 17px;
+  width:6rem;
+  height:3.4rem;
+}
+
+table{
+  background-color: var(--bg-color);
+}
+
+td{
+ 
+  text-align: center;
+  height: 3rem;
+  border-color: var(--bg-color);
+  width: 4rem;
+  border-collapse: collapse;
+}
+
+table{
+  
+  width: 90%;
+  height: 10%;
+ background-color: #e9e9ea;
+ justify-content: center;
+ align-items: center;
+ border-color: var(--bg-color);
+}
+
+h1{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  padding-left: 10rem;
+
+}
+
+.jr-h{
+  border-top-left-radius: 20px;
+}
+
+.vn{
+  border-top-right-radius: 20px;
+
+}
+
+.the{
+  border-bottom-right-radius: 20px;
+}
+
+.heure1{
+  border-bottom-left-radius: 20px;
+  background-color: #89CFF3;
+  color: #00A9FF;
+}
+
+.heure{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.table .jour td{
+  color: var(--bg-color);
+  background-color: var(--primary-color);
+}
